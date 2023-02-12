@@ -4,7 +4,7 @@
 <p>First I wrote a deobfuscator - and then I hacked my favorite DDoS Tool!</p>
 <ul>
 <li dir="auto">Original page:&nbsp;<a href="https://github.com/palahsu/DDoS-Ripper">https://github.com/palahsu/DDoS-Ripper</a></li>
-<li Added a third attack method that was disabled by the developer.></li>
+<li <p>Added a third attack method that was disabled by the developer.></p></li>
 </ul>
 <p>Cracked by ent1tydev - <a href="https://netrunx.xyz">CSEC<br /></a></p>
 
